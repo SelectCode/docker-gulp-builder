@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:current-alpine
 
 RUN apk add --update openjdk8-jre
 RUN apk add --update autoconf
@@ -8,3 +8,5 @@ RUN apk add --update g++
 RUN apk add --update libtool
 RUN apk add --update nasm
 RUN apk add --update make
+
+RUN npm install -g gulp
