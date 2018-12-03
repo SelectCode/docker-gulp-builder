@@ -9,4 +9,4 @@ RUN apk add --update libtool
 RUN apk add --update nasm
 RUN apk add --update make
 
-RUN npm install -g gulp
+RUN npm install -g gulp-cli
